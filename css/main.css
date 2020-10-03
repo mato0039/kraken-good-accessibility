@@ -56,7 +56,7 @@ article div {
   color: #fff;
 }
 
-header h1 {
+h1 {
   margin: 0;
   color: #fff;
   font-weight: normal;
@@ -86,7 +86,7 @@ nav a {
   border: 0;
   border-radius: 6px;
   color: #fff;
-  padding: 0.5rem;
+  padding: .5rem;
   width: 2.5rem;
   height: 2.5rem;
 }
@@ -123,7 +123,7 @@ article div :first-child {
   text-indent: 0;
 }
 
-article div :first-child::first-line {
+.para :first-child::first-line {
   color: #1e7c74;
   font-style: italic;
 }
